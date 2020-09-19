@@ -23,15 +23,15 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2-beta
         with:
-         version: 12
-    
-    - name: GitHub Action for yarn
+          version: 12
+     
+     - name: GitHub Action for yarn
        run: Borales/ations-yarn@v2-beta
        with:
          cmd: install
       
       
-   - nmae:
+   - nmae: Making Build
      run: yarn build
       
    - name: Install surge
